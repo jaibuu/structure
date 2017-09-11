@@ -9,5 +9,6 @@ $databases['default']['default'] = array(
     'database' => 'skydiver_structure',
     'username' => 'skydiver_structu',
     'password' => 'structure15',
-    'host' => '127.0.0.1',
-    'port' => 33067 );
+    'host' => 'localhost',
+    'port' => 3306
+ );
