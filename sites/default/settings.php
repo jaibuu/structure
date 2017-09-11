@@ -770,5 +770,11 @@ $settings['file_scan_ignore_directories'] = [
 if (isset($_SERVER['DEVDESKTOP_DRUPAL_SETTINGS_DIR']) && file_exists($_SERVER['DEVDESKTOP_DRUPAL_SETTINGS_DIR'] . '/loc_structure_dd.inc')) {
   require $_SERVER['DEVDESKTOP_DRUPAL_SETTINGS_DIR'] . '/loc_structure_dd.inc';
 }
+
+if (file_exists(dirname(__FILE__) .'/settings.gator4244.hostgator.com.inc')) {
+  require(dirname(__FILE__) .'/settings.gator4244.hostgator.com.inc');
+}
+
+
 // </DDSETTINGS>
 $settings['install_profile'] = 'standard';
