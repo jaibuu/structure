@@ -1,3 +1,13 @@
 nav ul {
   @include inline-list;
 }
+
+#main-menu {
+  li {
+    display: block;
+  }
+}
+
+.front #main-menu [data-drupal-link-system-path="<front>"] {
+  display: none;
+}

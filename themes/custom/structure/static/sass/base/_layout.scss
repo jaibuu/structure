@@ -1,5 +1,5 @@
 html, body {
-  font-family: $default-font;
+  font-family: $serif;
   height: 100%;
   line-height: pxtorem($default-line-height);
 }
@@ -15,6 +15,25 @@ li.node-readmore a:after {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: $default-font;
+  font-family: $sans;
   margin: 0 0 5px;
+}
+
+
+section.content {
+  padding-top: 2em;
+}
+
+.html-container {
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 80vw;
+}
+
+@media only screen and (min-width: 1024) {
+  .html-container {
+    max-width: 80vw;
+  }
 }

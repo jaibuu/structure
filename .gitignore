@@ -1,2 +1,4 @@
 sites/*/files/*
 settings.local*
+node_modules
+

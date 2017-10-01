@@ -9,16 +9,16 @@
       if (body.hasClass('layout-adaptive')) {
         constants.LAYOUT = {
           fluid: false,
-          adaptive: true
+          adaptive: true,
         };
       }
       else if (body.hasClass('layout-fluid')) {
         constants.LAYOUT = {
           fluid: true,
-          adaptive: false
+          adaptive: false,
         };
       }
-    }
+    },
   };
 
 })(jQuery, Drupal, this, this.document);
