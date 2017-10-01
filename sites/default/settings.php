@@ -775,6 +775,11 @@ if (file_exists(dirname(__FILE__) .'/settings.gator4244.hostgator.com.inc')) {
   require(dirname(__FILE__) .'/settings.gator4244.hostgator.com.inc');
 }
 
+if(strstr($_SERVER['HTTP_HOST'],'www.')){
+	header('HTTP/1.1 301 Moved Permanently');
+	header('Location: http://'.substr($_SERVER['HTTP_HOST'],4).$_SERVER['REQUEST_URI']);
+	exit(); 
+}
 
 // </DDSETTINGS>
 $settings['install_profile'] = 'standard';
