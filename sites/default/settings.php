@@ -771,8 +771,8 @@ if (isset($_SERVER['DEVDESKTOP_DRUPAL_SETTINGS_DIR']) && file_exists($_SERVER['D
   require $_SERVER['DEVDESKTOP_DRUPAL_SETTINGS_DIR'] . '/loc_structure_dd.inc';
 }
 
-if (file_exists(dirname(__FILE__) .'/settings.gator4244.hostgator.com.inc')) {
-  require(dirname(__FILE__) .'/settings.gator4244.hostgator.com.inc');
+if (file_exists(dirname(__FILE__) .'/settings.'.gethostname().'.inc')) {
+  require(dirname(__FILE__) .'/settings.'.gethostname().'.inc');
 }
 
 if(strstr($_SERVER['HTTP_HOST'],'www.')){
