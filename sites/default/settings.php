@@ -791,3 +791,4 @@ if(strstr($_SERVER['HTTP_HOST'],'www.')){
 
 // </DDSETTINGS>
 $settings['install_profile'] = 'standard';
+
