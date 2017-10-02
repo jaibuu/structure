@@ -788,6 +788,7 @@ if(strstr($_SERVER['HTTP_HOST'],'www.')){
 }
 
 
+$config['system.site']['name'] = 'Ingeniero Estructural, Dario Narvaez';
 
 // </DDSETTINGS>
 $settings['install_profile'] = 'standard';
